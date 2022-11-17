@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.1fr 4fr;
+ 
+}
+
+/* sidebar styling starts here*/
+
+.sidebar {
+    grid-row: 1/3;
+    min-height: 100vh;
+    padding-left: 1rem;
+    background-color: #0ea5e9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.menu-item, 
+.dashboard {
+    color: white;
+    font-weight: bold;
+    gap: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.upper-items,
+.bottom-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+/* header styling starts here*/
+
+
+.header {
+    grid-column: 2/3;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.search-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    gap: 5px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    gap: 1.5rem;
+}
+
+.search-box {
+    all: unset;
+    background-color:#d6f1ed ;
+    flex: 1;
+    border: 1px solid none;
+    border-radius: 15px;
+    height: 2rem;
+    
+}
+
+.search-box:focus {
+    border: 1px none none;
+}
+/* main content styling starts here*/
+
+
+.main-content {
+    background-color: #d6f1ed;
+    grid-column: 2/3;
+    min-height: 100vh;
+}
