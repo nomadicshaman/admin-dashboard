@@ -32,6 +32,7 @@ html, body {
     color: white;
     font-weight: bold;
     gap: 1rem;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -66,6 +67,11 @@ html, body {
     grid-template-rows: 1fr 2fr;
 }
 
+.header img,
+.header svg {
+    cursor: pointer;
+}
+
 .search-user {
     display: flex;
     align-items: center;
@@ -76,7 +82,7 @@ html, body {
 .search-container {
     display: flex;
     align-items: center;
-    width: 30rem;
+    width: 35rem;
     gap: 5px;
 }
 
@@ -100,6 +106,44 @@ html, body {
 .search-box:focus {
     border: 1px none none;
 }
+
+.welcome-buttons {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.welcome-text p {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    margin-right: 5rem;
+}
+
+.buttons button {
+   background-color: #0ea5e9;
+   border: 1px solid #0ea5e9;
+   color: white;
+   font-weight: bold;
+   font-size: 1rem;
+   cursor: pointer;
+
+   height: 2.5rem;
+   width: 6rem;
+   border-radius: 15px;
+}
+
 /* main content styling starts here*/
 
 
