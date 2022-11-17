@@ -2,4 +2,4 @@
 Admin Dashboard Task
 Admin Dashboard task given by The Odin Project course. 
 
-(For live Demo)[https://nomadicshaman.github.io/admin-dashboard/]
+[For live demo](https://nomadicshaman.github.io/admin-dashboard/)
