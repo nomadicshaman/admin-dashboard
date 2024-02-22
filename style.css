@@ -67,6 +67,7 @@ html, body {
 
     display: grid;
     grid-template-rows: 1fr 2fr;
+    box-shadow: 0px 15px 10px -15px;
 }
 
 .header img,
@@ -189,6 +190,7 @@ html, body {
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
+    box-shadow: 0px 15px 10px -15px;
 }
 
 .card p {
@@ -223,6 +225,7 @@ html, body {
    border-radius: 15px;
    font-size: 12px;
    color: #757575;
+   box-shadow: 0px 15px 10px -15px;
 
 }
 
